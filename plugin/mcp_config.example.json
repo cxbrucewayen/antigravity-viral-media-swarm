@@ -1,0 +1,12 @@
+{
+  "_comment": "Rename to mcp_config.json ONLY when your domain Swarm needs external MCP servers. ALWAYS prefix server names with your plugin slug (e.g., 'viral-media-swarm-search') because MCP server names share a single global namespace across Antigravity.",
+  "mcpServers": {
+    "viral-media-swarm-example-server": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/mcp/server.mjs"],
+      "env": {
+        "MY_SWARM_DATA_DIR": "${PLUGIN_DATA}"
+      }
+    }
+  }
+}

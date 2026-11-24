@@ -1,0 +1,14 @@
+{
+  "lead-planner": {
+    "allow": ["work/plan/**", ".viral-media-swarm/**"],
+    "deny": ["work/deliverables/**"]
+  },
+  "producer": {
+    "allow": ["work/drafts/**", "work/deliverables/**"],
+    "deny": ["work/reviews/**", ".viral-media-swarm/**"]
+  },
+  "auditor": {
+    "allow": ["work/reviews/**"],
+    "deny": ["work/drafts/**", "work/deliverables/**"]
+  }
+}

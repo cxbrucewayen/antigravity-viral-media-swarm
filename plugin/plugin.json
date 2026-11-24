@@ -1,0 +1,21 @@
+{
+  "name": "viral-media-swarm",
+  "displayName": "Viral Media Swarm",
+  "version": "0.2.0",
+  "description": "Domain-specific multi-agent /swarm plugin for automated social media account operations, viral topic analytics, engagement optimization, and video content distribution on Google Antigravity 2.0, with coexistence-safe rules, scoped file-ownership hooks, and delivery contract gates.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "cxbrucewayen",
+    "url": "https://github.com/cxbrucewayen"
+  },
+  "homepage": "https://github.com/cxbrucewayen/antigravity-viral-media-swarm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxbrucewayen/antigravity-viral-media-swarm"
+  },
+  "suggestedPrompts": [
+    "/swarm 启动 viral-media-swarm 团队，帮我完成：【描述你的领域目标】。先由规划员锁定大纲与目录权限表，再并行产出并交叉核验交付物。",
+    "/swarm 启动 viral-media-swarm 分片调研组，并行处理以下多个子主题并汇总对比结论：【列出主题 A / B / C】。",
+    "/swarm 启动 viral-media-swarm 独立验收组，按交付契约对当前产出目录执行质量、事实与结构终审。"
+  ]
+}

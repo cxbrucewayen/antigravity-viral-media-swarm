@@ -1,0 +1,27 @@
+{
+  "viral-media-swarm-ownership-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./hooks/pre-tool-write.mjs",
+            "timeout": 8
+          }
+        ]
+      }
+    ]
+  },
+  "viral-media-swarm-delivery-gate": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node ./hooks/stop-gate.mjs",
+        "timeout": 8
+      }
+    ]
+  }
+}
